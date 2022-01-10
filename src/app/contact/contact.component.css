@@ -1,0 +1,40 @@
+.card-props {
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  background-color: #9bbbbf;
+}
+
+.move-card {
+  padding-left: 400px;
+  padding-top: 60px;
+}
+
+.move-btn {
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 540px) {
+
+  .move-card {
+    padding-left: 0;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+
+  .move-card {
+    padding-left: 15px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1100px) {
+
+  .move-card {
+    padding-left: 100px;
+    padding-top: 60px;
+  }
+}

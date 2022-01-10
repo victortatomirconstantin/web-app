@@ -1,0 +1,76 @@
+.image {
+  width: 400px;
+  padding-right: 2px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 2%;
+}
+
+.card-props {
+  width: 900px;
+  float: none;
+  margin: 0 auto 10px;
+  background-color: #9bbbbf;
+  border: 1rem;
+}
+
+.title {
+  text-decoration: underline;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+}
+
+.series-card {
+  width: 600px;
+  float: none;
+  margin: 0 auto 10px;
+  background-color: #9bbbbf;
+}
+
+.item-list {
+  font-size: 23px;
+}
+
+.para {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  .image {
+    width: 200px;
+    height: auto;
+  }
+
+  .card-props {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .card-props {
+    width: auto;
+  }
+
+  .image {
+    width: 300px;
+    height: auto;
+  }
+
+  .series-card {
+    width: 300px
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1100px) {
+  .card-props {
+    width: auto;
+  }
+
+  .image {
+    width: 400px;
+    height: auto;
+  }
+
+  .series-card {
+    width: 450px
+  }
+}

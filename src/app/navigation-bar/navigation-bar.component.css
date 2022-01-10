@@ -1,0 +1,41 @@
+.img-size {
+  width: 80px;
+  padding-right: 10px;
+}
+
+.position {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.links {
+  font-size: 18px
+}
+
+.button-position{
+  padding-top: 9px;
+}
+
+@media screen and (max-width: 540px) {
+  .hidden-mob {
+    display: none;
+  }
+
+  .img-size {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .position {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (min-width: 780px) and (max-width: 1100px) {
+  .position {
+    font-size: 24px;
+  }
+}

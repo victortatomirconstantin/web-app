@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+.color-bg {
+  background-color: #586f7c;
+}
+
+.round-corners {
+  border-radius: 2%;
+}
+
+.accordion-button {
+  background: #9bbbbf
+}
+
+.accordion-body {
+  background: #b5d7dc
+}
+
+.accordion-button {
+  background: #9bbbbf
+}
+
